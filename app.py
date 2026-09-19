@@ -216,7 +216,7 @@ if __name__ == "__main__":
 
     for t in threads:
         t.join()
-            if 1 <= number <= maximum and number not in result:
+if 1 <= number <= maximum and number not in result:
                 result.append(number)
 
         except ValueError:
